@@ -2,107 +2,122 @@
 
 *Udkast, 5. sep 2026*
 
-## 0. Kilden
+## 0. Kilden — og hvad jeg faktisk kan bekræfte om den
 
-Fra Dan Harrisons opslag: han byggede en 5-personers forretning op klassisk — ansatte, uddelegerede, skrev roller og SOP'er. Det virkede, men det gjorde ham til manager i stedet for udøver. Pointen han lander på:
+Dan Harrisons pointe fra opslaget: han udfylder rollerne (EA, video editor, social media manager, media buyer, tech officer, chief of staff) med AI-agenter — men det kan han **kun**, fordi han i tyve år har lært at beskrive en rolle så præcist, at den kan overdrages uden ham. "You can't hand a job to AI if you can't describe the job."
 
-> "You can't hand a job to AI if you can't describe the job."
+Jeg har undersøgt, hvad der offentligt er kendt om hans konkrete system (kaldet "Claude for Coaches") — hans faktiske SOP'er ligger bag login, så det her er research om *rammen*, ikke en kopi af hans interne materiale:
 
-De tyve år med at bygge roller ordentligt var ikke spildt — det var forudsætningen for, at han bagefter kunne overføre rollerne til AI-agenter. Han havde allerede **rolle, færdigheder og outcomes** skrevet ned for hver funktion (Executive Assistant, Video Editor, Social Media Manager, Media Buyer, Tech Officer, Chief of Staff). Fordi de var beskrevet præcist, kunne han flytte dem — først til mennesker, siden til AI. I dag kører han 5 AI-agenter + 1 menneskelig EA, ingen salgssamtaler, og leverer til 100+ klienter på 4 dage om ugen.
+- **The Chat Closer** — en AI-konversationsramme, der overtager DM'en fra første besked: kvalificerer (høj-intent vs. spild af tid) og booker et kald direkte i kalenderen, uden at han selv er i samtalen.
+- **AI Powered Delivery** — leverer hans egne rammer/IP til klienter automatisk, i stedet for at han manuelt sender det.
+- **Micro Offer Builder** — lead magnets + AI-drevne annoncer, der fylder toppen af tragten.
 
-Konsekvensen for os: en rolle skal beskrives så den er **overførbar** — til en freelancer, en ansat, eller en automatisering — uafhængigt af hvem der udfylder den lige nu. Skriver vi det ordentligt første gang, er arbejdet ikke spildt, uanset hvem eller hvad der senere driver rollen.
+Pointen for os er ikke at kopiere navnene, men mekanikken: **en rolle skal beskrives som en SOP med triggere, input, beslutningsregler og output** — ikke kun som formål og ansvar. Det er det, der gør den udførbar af en AI (eller en ny medarbejder, uden at du skal forklare det).
+
+Jeg har også undersøgt, hvad der faktisk findes af værktøjer til at automatisere en Skool-baseret forretning som din, fordi det er der, det bliver konkret:
+
+- **Skool selv** har ingen indbygget automatisering ud over det basale (medlem tilmelder sig, betaler).
+- **Zapier's native Skool-integration er tynd** — kun medlems-events som trigger (ny tilmelding, opsigelse), ingen mulighed for at sende opslag eller DM-sekvenser derfra.
+- **StickyHive** (fra ca. 29 USD/md) er tredjepartslaget, der reelt gør det, Harrison beskriver, muligt på Skool: DM-sekvenser med forgrening, churn-detektion (opdager medlemmer der er ved at falde fra og sender automatisk retention-beskeder), AI-moderation, indholds-planlægning og et lille CRM. Det er den mest realistiske vej til at automatisere store dele af Community Manager- og dele af Salg-rollen på Skool specifikt.
+- Derudover har du allerede adgang til (i dette workspace): **Calendly** (booking), **MailerLite** (e-mail-sekvenser), **Fireflies** (optager/transskriberer samtaler), **Gamma** og **Canva** (indholdsproduktion), **Notion** (videnbase/SOP'er), **Gmail/Google Calendar**, **Stripe**. Det er byggeklodserne — ikke Skool-specifikke, men de dækker alt det, der foregår udenom Skool (salgsopfølgning, forløbslogistik, indhold, cases).
 
 ---
 
-## 1. Skabelonen
+## 1. Sådan skrives en rolle, så den kan overdrages (til menneske eller AI)
 
-Hver rolle beskrives i tre lag, direkte fra metoden:
+For hver opgave i rollen, ikke kun rollen som helhed:
 
-- **Rolle** — hvad rollen er der for (formål/outcome på højt niveau)
-- **Færdigheder** — hvad der kræves for at udføre den (så den kan gives videre præcist)
-- **Outcomes** — de konkrete, målbare resultater rollen er ansvarlig for
+1. **Trigger** — hvad sætter opgaven i gang (en ny tilmelding, et modtaget DM, en session er afholdt, en betaling er 3 dage forsinket)
+2. **Input** — hvilken information skal bruges (medlemsdata, samtalehistorik, transskription, produktinfo)
+3. **Beslutningsregel** — hvad skal der ske i de forskellige scenarier, og hvornår skal det eskaleres til dig i stedet for at blive afgjort selv
+4. **Output** — det konkrete resultat (en besked sendt, et opslag udgivet, en note i et system)
+5. **Værktøj** — hvad opgaven rent faktisk udføres i (Skool, StickyHive, MailerLite, Calendly, Notion …)
 
-Dertil to praktiske lag, som Harrison ikke nævner, men som er nødvendige, når rollen skal fungere i en menneskelig organisation i dag (ikke kun i en AI-pipeline):
-
-- **Beslutningsret** — hvad rollen må afgøre selv, hvad der skal op til dig
-- **Referer til** — hvem rollen er ansvarlig overfor
-
-Samme firma, tre grene — men Padel Skool og The Performance Mind er dem, der skal kunne køre uden at gå gennem dig hver dag. Padel Performance (talentudvikling, dig personligt) er fortsat kernen og holdes udenfor denne uddelegering.
+De to prioriterede roller herunder (Community Manager og Salg/Onboarding) er brudt helt ned på dette niveau. De øvrige er skitseret på samme måde, men mindre udfoldet — de kræver mere af din faglighed og er derfor sværere at give fuldt væk endnu.
 
 ---
 
 ## 2. Padel Skool
 
 ### Rolle: Community Manager
-- **Rolle:** Medlemmerne bliver, engagerer sig og oplever fremdrift — uden din daglige tilstedeværelse.
-- **Færdigheder:** Skriftlig kommunikation i din tone (direkte, rolig, uden hype), moderation, mønstergenkendelse på hvem der er ved at falde fra.
-- **Outcomes:**
-  - Churn-rate under en fastsat grænse pr. måned
-  - Aktivitetsniveau (posts/kommentarer pr. uge)
-  - Svartid på spørgsmål i gruppen
-- **Beslutningsret:** Tone og indhold i daglig kommunikation. Pris, produkt og struktur går til dig.
-- **Referer til:** Dig
+**Formål:** Medlemmerne bliver, engagerer sig og oplever fremdrift — uden din daglige tilstedeværelse.
 
-### Rolle: Indholdsansvarlig
-- **Rolle:** Der er altid næste stykke indhold klar — uden at du selv producerer det i sidste øjeblik.
-- **Færdigheder:** Kan omsætte din faglighed (samtaler, sessions, noter) til strukturerede lektioner uden at udvande den; redaktionel disciplin.
-- **Outcomes:**
-  - Indholdskalenderen er altid 4 uger foran
-  - Ingen udgivelse forsinkes pga. manglende materiale
-- **Beslutningsret:** Format og opsætning selv. Nyt fagligt indhold godkendes af dig før udgivelse.
-- **Referer til:** Dig
+| Opgave | Trigger | Beslutningsregel | Output/værktøj |
+|---|---|---|---|
+| Velkomstsekvens til nye medlemmer | Nyt medlem tilmelder sig i Skool | Altid samme flow, personaliseret med navn/niveau fra tilmeldingsformular | 3-4 DM'er over første uge — **StickyHive** DM-sekvens |
+| Churn-forebyggelse | Medlem holder op med at logge ind/deltage i X dage, eller signalerer opsigelse | Automatisk retention-besked først; hvis medlemmet svarer negativt/frustreret → eskaler til dig | **StickyHive** churn-trigger + DM |
+| Moderation af opslag/kommentarer | Nyt opslag/kommentar postes | Spam/støj fjernes automatisk; alt fagligt/personligt sendes videre til dig eller Indholdsansvarlig | **StickyHive** AI-moderation |
+| Ugentlig rytme (opslag, Q&A) | Fast ugentlig trigger (fx mandag kl. 8) | Skabelon findes for hver faste post-type; nyt fagligt indhold kræver din godkendelse først | Planlagt i **StickyHive**/Skool-kalender |
+| Statusrapport til dig | Fast månedlig trigger | — | Aktivitetsniveau, churn-rate, svartid samlet i **Notion**-dashboard |
+
+**Hvad kræver stadig dig:** Godkendelse af nyt fagligt indhold, håndtering af medlemmer der eskaleres, beslutninger om pris/produkt/struktur.
 
 ### Rolle: Salg/Onboarding
-- **Rolle:** Kvalificerede spillere finder vej ind i Padel Skool og forstår, hvad de får — uden salgssamtaler, jf. Harrisons model.
-- **Færdigheder:** Skriftlig konvertering, opfølgning, struktureret rapportering af hvor leads kommer fra.
-- **Outcomes:**
-  - Konverteringsrate fra lead til medlem
-  - Antal nye medlemmer pr. måned mod 500–1000-medlemmer-målet
-- **Beslutningsret:** Standardhenvendelser selv. Særaftaler/rabatter går til dig.
-- **Referer til:** Dig
+**Formål:** Kvalificerede spillere finder vej ind i Padel Skool og forstår, hvad de får — uden salgssamtaler.
+
+| Opgave | Trigger | Beslutningsregel | Output/værktøj |
+|---|---|---|---|
+| Kvalificering af henvendelse | Nyt DM/lead via Skool eller landingsside | Skelner høj-intent (klar til at melde sig ind) fra "bare kigger" ud fra svar på 2-3 kvalificerende spørgsmål | AI-drevet DM-flow (StickyHive eller tilsvarende) |
+| Nurture af ikke-klar-endnu leads | Lead svarer "ikke nu"/tøver | Automatisk sekvens med social proof/cases over 1-2 uger, herefter stop hvis ingen respons | **MailerLite**-sekvens |
+| Direkte optag/betaling | Lead er kvalificeret og klar | Sender betalingslink, bekræfter medlemskab | **Stripe**-link + Skool-optag |
+| Personlig samtale (kun ved behov) | Lead beder specifikt om at tale med dig, eller AI'en vurderer det som en high-value case | Booking uden om dig indtil kaldet skal afholdes | **Calendly** |
+| Rapportering | Fast ugentlig trigger | — | Antal leads, konverteringsrate, kilder — **Notion**-dashboard |
+
+**Hvad kræver stadig dig:** Særaftaler/rabatter, high-value samtaler AI'en selv eskalerer, den oprindelige kvalificeringslogik (skal skrives af dig, ikke gættes).
+
+### Rolle: Indholdsansvarlig
+**Formål:** Der er altid næste stykke indhold klar — uden at du selv producerer det i sidste øjeblik.
+
+- **Opgave:** Omsætte rå kilder (dine sessions optaget via **Fireflies**, egne noter) til strukturerede lektioner.
+- **Sådan i dag:** Foregår formentlig ad hoc, når du har tid.
+- **Automatiseringsvej:** Fireflies-transskription → udkast til lektion/opslag skrevet i din tone → lægges i **Notion** som kladde → du godkender → publiceres via **Gamma/Canva** (visuelt materiale) og planlægges i **StickyHive**/Skool.
+- **Hvad kræver stadig dig:** Fagligt indhold skal godkendes, før det udgives — det er ikke til forhandling givet din positionering (ingen udvanding af metoden).
 
 ---
 
 ## 3. The Performance Mind
 
-Tættere på din kernefaglighed og samarbejdet med Andreas Johansson — rollerne her understøtter leverancen, de erstatter den ikke.
+Tættere på din kernefaglighed og samarbejdet med Andreas Johansson. Automatiseringen her handler om at fjerne logistik, ikke det faglige indhold.
 
 ### Rolle: Forløbsansvarlig / Program Manager
-- **Rolle:** Hvert forløb kører struktureret fra start til slut, uafhængigt af hvem der er "i rummet" med spilleren.
-- **Færdigheder:** Overblik over flere forløb ad gangen, opfølgningsdisciplin, kan omsætte forløbsstruktur til konkrete bookinger og deadlines.
-- **Outcomes:**
-  - Ingen spiller falder mellem stole i et forløb
-  - Fast rytme i opfølgning overholdes
-- **Beslutningsret:** Logistik og struktur selv. Fagligt indhold i forløbet er dit (og Andreas').
-- **Referer til:** Dig / Andreas Johansson
+- **Opgaver:** Booking af sessions (**Calendly**), automatisk opfølgning mellem sessions (**MailerLite**/Gmail), overblik over hvor hver spiller er i forløbet (**Notion**-tracker).
+- **Beslutningsregel:** Hvis en spiller ikke booker næste session inden for X dage → automatisk påmindelse, herefter eskalering til dig/Andreas.
+- **Hvad kræver stadig dig:** Selve det faglige indhold i forløbet.
 
 ### Rolle: Case- og materialeansvarlig
-- **Rolle:** Det, der virker i praksis med spillere, bliver fanget og gjort genanvendeligt, så The Performance Mind kan skalere uden at hver session genopfindes.
-- **Færdigheder:** Kan lytte til/læse en session og destillere mønster og ramme uden at forsimple det mentale til floskler.
-- **Outcomes:** Et voksende, brugbart bibliotek af rammer og cases.
-- **Beslutningsret:** Dokumentation selv. Nye rammer valideres af dig/Andreas, før de bruges bredt.
-- **Referer til:** Dig / Andreas Johansson
+- **Opgaver:** Hver session optages/transskriberes (**Fireflies**), og mønstre/cases udtrækkes til et voksende bibliotek i **Notion**.
+- **Beslutningsregel:** Et udkast til case/ramme genereres automatisk efter hver session — men bruges først bredt, når du/Andreas har valideret det.
+- **Hvad kræver stadig dig:** Validering — det mentale kan ikke forsimples til floskler, og det er her kvaliteten typisk går tabt, hvis AI'en får lov at generalisere selv.
 
 ---
 
-## 4. Rækkefølge
+## 4. Rækkefølge og hvad det kræver at komme i gang
 
-1. **Community Manager (Padel Skool)** — frigør mest tid dag-til-dag, kræver ikke din faglighed.
-2. **Salg/Onboarding** — direkte forbundet til væksten mod 500–1000 medlemmer.
-3. **Indholdsansvarlig** — fungerer først godt, når der er nok eksisterende materiale at bygge videre på.
-4. **Forløbsansvarlig (The Performance Mind)** — når volumen i forløb kræver logistik adskilt fra det faglige.
-5. **Case- og materialeansvarlig** — når der er nok cases til, at systematisering giver mening.
-
----
-
-## 5. AI-perspektivet
-
-Harrisons pointe er ikke "brug AI" — det er, at en veldefineret rolle er den samme uanset hvem eller hvad der udfylder den. Community Manager og Salg/Onboarding er de to roller, hvor størstedelen af arbejdet er mønstergenkendelse og skriftlig kommunikation — de roller, der på sigt oftest lader sig understøtte af automatisering, hvis I vælger det. Indholdsansvarlig og de to Performance Mind-roller kræver menneskelig fortolkning af din faglighed og bliver ved med at kræve det. Det er ikke noget, der skal besluttes nu — men det er værd at vide, når I skriver rollerne, så beskrivelsen holder uanset retning.
+1. **Community Manager** — kræver: StickyHive-opsætning (~5-15 min/uge vedligehold), skrevne skabeloner til velkomst/churn/moderation-regler. Det tungeste forarbejde er at skrive kvalificerings- og eskaleringsreglerne én gang.
+2. **Salg/Onboarding** — kræver: samme DM-lag (StickyHive) + kvalificeringsspørgsmål defineret af dig + MailerLite-sekvens skrevet.
+3. **Indholdsansvarlig** — kræver: at Fireflies bruges konsekvent til dine sessions, og en Notion-struktur til kladder/godkendelse.
+4. **Forløbsansvarlig (Performance Mind)** — kræver: Calendly-opsætning pr. forløbstype, Notion-tracker pr. spiller.
+5. **Case- og materialeansvarlig** — kræver: nok volumen af transskriberede sessions til at mønstrene giver mening at systematisere.
 
 ---
 
-## 6. Åbne spørgsmål til dig
+## 5. Hvor jeg kan gå videre nu
 
-- Er der allerede nogen (medarbejder, freelancer, praktikant) der er oplagt til en af rollerne, eller starter vi fra nul?
-- Skal Andreas Johansson formelt eje en rolle i The Performance Mind, eller er han fortsat "fagligt medansvarlig" uden en defineret rolle?
-- Vil du have, at jeg bygger disse roller om til konkrete jobopslag/freelance-briefs, når I skal ansætte til den første rolle?
+Jeg har allerede adgang til Zapier, MailerLite, Calendly, Fireflies, Gamma, Canva, Notion, Gmail, Google Calendar og Stripe i dette workspace. StickyHive er ikke en integration jeg har adgang til her — det kræver din egen konto og opsætning på stickyhive.ai.
+
+Sig til, hvis du vil have mig til at:
+- Sætte en konkret Notion-struktur op til rolle-SOP'er og case-bibliotek
+- Skrive de faktiske kvalificerings- og eskaleringsregler til Salg/Onboarding (det kræver din faglige stemme, men jeg kan lave et udkast baseret på hvad Padel Skool faktisk sælger)
+- Bygge en MailerLite-nurture-sekvens til leads, der ikke er klar endnu
+
+---
+
+## Kilder
+
+- [Claude for Coaches — Skool](https://www.skool.com/claudeforcoaches/about)
+- [Claude for Coaches: Full Review 2026 — Skoolmakers](https://skoolmakers.com/communities/claude-for-coaches/)
+- [Dan Harrison – Claude for Coaches — Skillocourses](https://skillocourses.com/products/dan-harrison-claude-for-coaches)
+- [StickyHive — Run Your Community Like a Business](https://stickyhive.ai/)
+- [StickyHive Features: AI Moderation, Scheduling & Automation](https://stickyhive.ai/features/)
+- [Best Skool Automation Tools 2026 — StickyHive](https://stickyhive.ai/skool/automation-tools/)
+- [Skool Zapier Alternative: 28 Triggers & 60+ Actions vs Zapier's 4 — StickyHive](https://stickyhive.ai/skool/zapier-alternative/)
